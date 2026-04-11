@@ -1,15 +1,38 @@
 {
-  "name": "nova-sdk",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "@nova-registry/sdk-ts",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for Nova Registry x402 payments on Stellar",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm,cjs --clean",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "pnpm run typecheck && pnpm run build"
+  },
+  "keywords": [
+    "stellar",
+    "x402",
+    "payments",
+    "sdk",
+    "nova-registry"
+  ],
+  "author": "Nova Registry",
+  "license": "MIT",
   "packageManager": "pnpm@10.27.0",
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.3.0"
+  },
   "devDependencies": {
     "@types/node": "^25.6.0",
     "tsup": "^8.5.1",
