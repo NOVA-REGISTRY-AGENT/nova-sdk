@@ -16,13 +16,32 @@ Register digital assets on the Stellar blockchain with automatic x402 paywall ha
 
 ---
 
-[![npm version](https://img.shields.io/npm/v/@nova-registry/sdk-ts?style=flat-square&color=blueviolet&label=npm)](https://www.npmjs.com/package/@nova-registry/sdk-ts)
+[![npm version](https://img.shields.io/npm/v/@nova-registry/sdk-ts?style=flat-square&color=blueviolet)](https://www.npmjs.com/package/@nova-registry/sdk-ts)
+[![npm downloads](https://img.shields.io/npm/dm/@nova-registry/sdk-ts?style=flat-square&color=blueviolet)](https://www.npmjs.com/package/@nova-registry/sdk-ts)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@nova-registry/sdk-ts?style=flat-square&label=size)](https://bundlephobia.com/package/@nova-registry/sdk-ts)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-brightgreen?style=flat-square&logo=node.js)](https://nodejs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5%2B-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org)
 [![Stellar](https://img.shields.io/badge/Stellar-Blockchain-black?style=flat-square&logo=stellar)](https://stellar.org)
-[![pnpm](https://img.shields.io/badge/pnpm-workspace-orange?style=flat-square&logo=pnpm)](https://pnpm.io)
 [![ESM + CJS](https://img.shields.io/badge/module-ESM%20%2B%20CJS-informational?style=flat-square)]()
+
+> **[View on npm →](https://www.npmjs.com/package/@nova-registry/sdk-ts)**
+
+---
+
+<a href="https://www.npmjs.com/package/@nova-registry/sdk-ts" target="_blank">
+  <img src="./img/image.png" alt="@nova-registry/sdk-ts on npm" width="800" />
+</a>
+
+---
+
+### Try it now — one command away
+
+```bash
+npm i @nova-registry/sdk-ts
+```
+
+The SDK is **live, public, and ready to use**. No setup beyond a Stellar secret key and a Nova Registry backend URL. Register your first digital asset in minutes.
 
 </div>
 
@@ -122,20 +141,24 @@ Register digital assets on the Stellar blockchain with automatic x402 paywall ha
 
 ## 3. Installation
 
+The package is published and available on npm:
+
+**[https://www.npmjs.com/package/@nova-registry/sdk-ts](https://www.npmjs.com/package/@nova-registry/sdk-ts)**
+
 <details open>
-<summary><strong>pnpm (recommended)</strong></summary>
+<summary><strong>npm</strong></summary>
 
 ```bash
-pnpm add @nova-registry/sdk-ts
+npm i @nova-registry/sdk-ts
 ```
 
 </details>
 
 <details>
-<summary><strong>npm</strong></summary>
+<summary><strong>pnpm</strong></summary>
 
 ```bash
-npm install @nova-registry/sdk-ts
+pnpm add @nova-registry/sdk-ts
 ```
 
 </details>
